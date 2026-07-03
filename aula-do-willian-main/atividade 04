@@ -1,0 +1,14 @@
+let pontosNBA = 200;
+let tempoNBA = 48;
+
+let golsFutebol = 2.53;
+let tempoFutebol = 96;
+
+let mediaNBA = pontosNBA / tempoNBA;
+let mediaFutebol = golsFutebol / tempoFutebol;
+
+let diferenca = mediaNBA - mediaFutebol;
+
+console.log("Pontos por minuto na NBA:", mediaNBA.toFixed(2));
+console.log("Gols por minuto no futebol:", mediaFutebol.toFixed(4));
+console.log("Diferença proporcional:", diferenca.toFixed(2));
