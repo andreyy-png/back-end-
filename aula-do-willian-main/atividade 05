@@ -1,0 +1,6 @@
+let numero = Number(prompt("Digite o número da tabuada:"));
+let limite = Number(prompt("Até qual número deseja ver a tabuada?"));
+
+for (let i = 1; i <= limite; i++) {
+    console.log(`${numero} x ${i} = ${numero * i}`);
+}
