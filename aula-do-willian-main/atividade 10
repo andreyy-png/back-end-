@@ -1,0 +1,9 @@
+let mediaMarianaBeatriz = 85;
+let mediaTres = 90;
+
+let somaMarianaBeatriz = mediaMarianaBeatriz * 2;
+let somaTres = mediaTres * 3;
+
+let idadeFabio = somaTres - somaMarianaBeatriz;
+
+console.log("A idade de Fábio é:", idadeFabio);
