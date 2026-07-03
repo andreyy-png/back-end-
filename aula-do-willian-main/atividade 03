@@ -1,0 +1,9 @@
+let jardasPorDescida = Number(prompt("Quantas jardas o time avança por descida?"));
+
+let descidas = Math.ceil(12 / jardasPorDescida);
+
+if (descidas < 3) {
+    descidas = 3;
+}
+
+console.log("Serão necessárias", descidas, "descidas.");
